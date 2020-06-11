@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #292e33;
+    padding: 1.5rem 10%;
+    border-bottom: 1px solid #292e33;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar h6 {
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+}

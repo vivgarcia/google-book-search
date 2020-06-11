@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color: #292e33;
+    border-radius: 0;
+    padding: 4.5rem 10% 3rem;
+    margin-bottom: 0;
+}
+
+.title {
+    color: white;
+}
+
+.emphasis {
+    color: #51a3ff;
+}
+
+.subtitle {
+    color: #9ba1a9;
+}
+
+@media screen and (max-width: 640px) {
+    .jumbotron {
+        padding-top: 2.5rem;
+    }
+}

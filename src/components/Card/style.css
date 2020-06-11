@@ -1,0 +1,11 @@
+.card-container {
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+
+@media screen and (max-width: 950px) {
+    .card-container {
+        width: 100%;
+    }
+}
