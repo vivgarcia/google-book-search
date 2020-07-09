@@ -69,7 +69,7 @@ class Search extends Component {
 
     //display tags on page
     renderTags() {
-        const tags = ["Adventure", "Comedy", "Light Novel", "Literature", "Romance", "Sci-Fi", "Fiction"];
+        const tags = ["Adventure", "Comedy", "Horror", "Literature", "Romance", "Sci-Fi", "Fiction"];
         return tags.map(tags => <Tag name={tags} click={this.searchBooks} />);
     }
 
